@@ -26,7 +26,7 @@ export class NavbarComponent implements OnInit {
 
   constructor() {
     this.boxed = false;
-    this.orientation = 'vertical';
+    this.orientation = 'horizontal';
   }
 
   ngOnInit() { }

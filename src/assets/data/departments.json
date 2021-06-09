@@ -2,7 +2,7 @@
   {
     "img": "/assets/content/department-1.jpg",
     "title": "Cardiology",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore enim, nemo nihil non omnis temporibus? Blanditiis culpa labore velit.",
+    "desc": "Cardiology",
     "team": [
       "/assets/content/doctor-400-1.jpg",
       "/assets/content/doctor-400-2.jpg",
@@ -12,7 +12,7 @@
   {
     "img": "/assets/content/department-2.jpg",
     "title": "Dentistry",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore enim, nemo nihil non omnis temporibus? Blanditiis culpa labore velit.",
+    "desc": "Dentistry",
     "team": [
       "/assets/content/doctor-400-4.jpg",
       "/assets/content/doctor-400-5.jpg",
@@ -23,7 +23,7 @@
   {
     "img": "/assets/content/department-3.jpg",
     "title": "Laboratory",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore enim, nemo nihil non omnis temporibus? Blanditiis culpa labore velit.",
+    "desc": "Laboratory",
     "team": [
       "/assets/content/doctor-400-8.jpg",
       "/assets/content/doctor-400-9.jpg"
@@ -32,8 +32,8 @@
   {
     "img": "/assets/content/department-4.jpg",
     "title": "Pulmonology",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore enim, nemo nihil non omnis temporibus? Blanditiis culpa labore velit.",
-    "team": [
+    "desc": "Pulmonology",
+    ",team": [
       "/assets/content/doctor-400-5.jpg",
       "/assets/content/doctor-400-8.jpg",
       "/assets/content/doctor-400-4.jpg"
@@ -42,7 +42,7 @@
   {
     "img": "/assets/content/department-5.jpg",
     "title": "Gynecology",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore enim, nemo nihil non omnis temporibus? Blanditiis culpa labore velit.",
+    "desc": "Gynecology",
     "team": [
       "/assets/content/doctor-400-1.jpg",
       "/assets/content/doctor-400-3.jpg",
@@ -52,7 +52,7 @@
   {
     "img": "/assets/content/department-6.jpg",
     "title": "Gastrology",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore enim, nemo nihil non omnis temporibus? Blanditiis culpa labore velit.",
+    "desc": "Gastrology",
     "team": [
       "/assets/content/doctor-400-7.jpg",
       "/assets/content/doctor-400-9.jpg",
@@ -62,7 +62,7 @@
   },{
   "img": "/assets/content/department-7.jpg",
   "title": "Neurology",
-  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore enim, nemo nihil non omnis temporibus? Blanditiis culpa labore velit.",
+  "desc": "Neurology",
   "team": [
     "/assets/content/doctor-400-1.jpg",
     "/assets/content/doctor-400-5.jpg",
@@ -72,8 +72,8 @@
   {
     "img": "/assets/content/department-8.jpg",
     "title": "Physical rehabilitation",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore enim, nemo nihil non omnis temporibus? Blanditiis culpa labore velit.",
-    "team": [
+    "desc": "Physical rehabilitation",
+    ",team": [
       "/assets/content/doctor-400-8.jpg",
       "/assets/content/doctor-400-7.jpg",
       "/assets/content/doctor-400-3.jpg"
@@ -82,7 +82,7 @@
   {
     "img": "/assets/content/department-9.jpg",
     "title": "Pediatrician",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore enim, nemo nihil non omnis temporibus? Blanditiis culpa labore velit.",
+    "desc": "Pediatrician",
     "team": [
       "/assets/content/doctor-400-5.jpg",
       "/assets/content/doctor-400-9.jpg",
