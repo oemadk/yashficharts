@@ -53,19 +53,15 @@ export class PageNg2ChartsComponent extends BasePageComponent implements OnInit,
     super(store, httpSv);
 
     this.pageData = {
-      title: 'Ng2 charts',
+      title: '',
       loaded: true,
       breadcrumbs: [
-        {
-          title: 'UI Kit',
-          route: 'default-dashboard'
-        },
         {
           title: 'Charts',
           route: 'default-dashboard'
         },
         {
-          title: 'Ng2 charts'
+          title: 'Google charts'
         }
       ]
     };
@@ -114,12 +110,12 @@ export class PageNg2ChartsComponent extends BasePageComponent implements OnInit,
 			scaleShowVerticalLines: false,
 			responsive: true
 		};
-		this.barChartLabels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
+		this.barChartLabels = ['2019', '2020', '2021'];
 		this.barChartType = 'bar';
 		this.barChartLegend = true;
 		this.barChartData = [
-			{ data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A' },
-			{ data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B' }
+			{ data: [65, 59, 80], label: 'Age ' },
+			{ data: [28, 48, 40], label: 'Categories ' }
 		];
 		this.barChartColors = [
       {
