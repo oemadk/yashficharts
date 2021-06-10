@@ -28,7 +28,7 @@ export class PageNgxChartsComponent extends BasePageComponent implements OnInit,
     super(store, httpSv);
 
     this.pageData = {
-      title: 'Ngx charts',
+      title: '',
       loaded: true,
       breadcrumbs: [
         {
@@ -56,28 +56,28 @@ export class PageNgxChartsComponent extends BasePageComponent implements OnInit,
 
     this.barChartData = [
       {
-        'name': 'USA',
-        'value': 100
+        'name': 'Unknown',
+        'value': 34
       },
       {
-        'name': 'France',
-        'value': 122
+        'name': 'FSGS',
+        'value': 26
       },
       {
-        'name': 'Canada',
-        'value': 144
+        'name': 'others',
+        'value': 13
       },
       {
-        'name': 'UK',
-        'value': 112
+        'name': 'Membranous nephropathy',
+        'value': 8
       },
       {
-        'name': 'Ukraine',
-        'value': 124
+        'name': 'Amyloidosis',
+        'value': 5
       },
       {
-        'name': 'Australia',
-        'value': 135
+        'name': 'MPGN',
+        'value': 4
       }
     ];
     this.lineChartData = [

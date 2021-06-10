@@ -1,19 +1,19 @@
 <div class="row">
-	<div class="col-12 col-md-6">
-		<tc-card [title]="'Linear'">
-			<canvas
-				baseChart
-				[datasets]="lineChartData"
-				[labels]="lineChartLabels"
-				[options]="lineChartOptions"
-				[colors]="chartColors"
-				[legend]="lineChartLegend"
-				[chartType]="lineChartType"
-      ></canvas>
-		</tc-card>
-	</div>
+<!--	<div class="col-12 col-md-6">-->
+<!--		<tc-card [title]="'Linear'">-->
+<!--			<canvas-->
+<!--				baseChart-->
+<!--				[datasets]="lineChartData"-->
+<!--				[labels]="lineChartLabels"-->
+<!--				[options]="lineChartOptions"-->
+<!--				[colors]="chartColors"-->
+<!--				[legend]="lineChartLegend"-->
+<!--				[chartType]="lineChartType"-->
+<!--      ></canvas>-->
+<!--		</tc-card>-->
+<!--	</div>-->
 
-	<div class="col-12 col-md-6">
+	<div class="col-12 col-md-12">
 		<tc-card [title]="'Bar'">
 			<canvas
         baseChart
@@ -28,7 +28,7 @@
 	</div>
 
 	<div class="col-12 col-md-6">
-		<tc-card [title]="'Doughnut'">
+		<tc-card [title]="'Wheel Chair Use'">
 			<canvas
         baseChart
         [data]="doughnutChartData"
@@ -40,43 +40,53 @@
 	</div>
 
 	<div class="col-12 col-md-6">
-		<tc-card [title]="'Radar'">
+		<tc-card [title]="'Dependence (on an assistant)'">
 			<canvas
-        baseChart
-        [datasets]="radarChartData"
-        [labels]="radarChartLabels"
-        [colors]="chartColors"
-        [chartType]="radarChartType"
-      ></canvas>
-		</tc-card>
-	</div>
-
-	<div class="col-12 col-md-6">
-		<tc-card [title]="'Pie'">
-			<canvas
-        baseChart
-				[data]="pieChartData"
-				[labels]="pieChartLabels"
-				[chartType]="pieChartType"
-        [colors]="pieChartColors"
+					baseChart
+					[data]="doughnutChartData2"
+					[labels]="doughnutChartLabels2"
+					[chartType]="doughnutChartType2"
+					[colors]="doughnutChartColors2"
 			></canvas>
 		</tc-card>
 	</div>
 
-	<div class="col-12 col-md-6">
-		<tc-card [title]="'Polar area'">
-			<canvas
-        baseChart
-        [data]="polarAreaChartData"
-        [labels]="polarAreaChartLabels"
-        [legend]="polarAreaChartLegend"
-        [chartType]="polarAreaChartType"
-        [colors]="polarAreaChartColors"
-      ></canvas>
-		</tc-card>
-	</div>
+
+<!--	<div class="col-12 col-md-6">-->
+<!--		<tc-card [title]="'Radar'">-->
+<!--			<canvas-->
+<!--        baseChart-->
+<!--        [datasets]="radarChartData"-->
+<!--        [labels]="radarChartLabels"-->
+<!--        [colors]="chartColors"-->
+<!--        [chartType]="radarChartType"-->
+<!--      ></canvas>-->
+<!--		</tc-card>-->
+<!--	</div>-->
+
+<!--	<div class="col-12 col-md-6">-->
+<!--		<tc-card [title]="'Pie'">-->
+<!--			<canvas-->
+<!--        baseChart-->
+<!--				[data]="pieChartData"-->
+<!--				[labels]="pieChartLabels"-->
+<!--				[chartType]="pieChartType"-->
+<!--        [colors]="pieChartColors"-->
+<!--			></canvas>-->
+<!--		</tc-card>-->
+<!--	</div>-->
+
+<!--	<div class="col-12 col-md-6">-->
+<!--		<tc-card [title]="'Polar area'">-->
+<!--			<canvas-->
+<!--        baseChart-->
+<!--        [data]="polarAreaChartData"-->
+<!--        [labels]="polarAreaChartLabels"-->
+<!--        [legend]="polarAreaChartLegend"-->
+<!--        [chartType]="polarAreaChartType"-->
+<!--        [colors]="polarAreaChartColors"-->
+<!--      ></canvas>-->
+<!--		</tc-card>-->
+<!--	</div>-->
 </div>
 
-<tc-alert [beforeIcon]="'icofont-chart-pie'" [view]="'default'">
-  More information can be found in <a href="https://github.com/valor-software/ng2-charts" target="_blank">official page</a>.
-</tc-alert>

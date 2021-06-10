@@ -26,10 +26,14 @@ export class PageNg2ChartsComponent extends BasePageComponent implements OnInit,
 	barChartData: any[];
   barChartColors: any;
 
-	doughnutChartLabels: string[];
-	doughnutChartData: number[];
-	doughnutChartType: string;
-  doughnutChartColors: any;
+    doughnutChartLabels: string[];
+    doughnutChartLabels2: string[];
+    doughnutChartData: number[];
+    doughnutChartData2: number[];
+    doughnutChartType: string;
+    doughnutChartType2: string;
+    doughnutChartColors: any;
+    doughnutChartColors2: any;
 
 	radarChartLabels: string[];
 	radarChartData: any;
@@ -136,14 +140,21 @@ export class PageNg2ChartsComponent extends BasePageComponent implements OnInit,
       }
     ];
 
-		this.doughnutChartLabels = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
-		this.doughnutChartData = [350, 450, 100];
+		this.doughnutChartLabels = ['Yes', 'No'];
+		this.doughnutChartData = [13, 87];
 		this.doughnutChartType = 'doughnut';
     this.doughnutChartColors = [
-      { backgroundColor: ['#ed5564', '#e9e165', '#64B5F6'] },
-      { borderColor: ['#ed5564', '#e9e165', '#64B5F6'] }
+      { backgroundColor: ['#ed5564', '#64b5f6'] },
+      { borderColor: ['#ed5564', '#64b5f6'] }
     ];
 
+      this.doughnutChartLabels2 = ['Dependant', 'Independant'];
+      this.doughnutChartData2 = [30, 70];
+      this.doughnutChartType2 = 'doughnut';
+      this.doughnutChartColors2 = [
+          { backgroundColor: ['#ed5564', '#64b5f6'] },
+          { borderColor: ['#ed5564', '#64B5F6'] }
+      ];
 		this.radarChartLabels = ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'];
 		this.radarChartData = [
       { data: [65, 59, 90, 81, 56, 55, 40], label: 'Series A' },
